@@ -5,7 +5,7 @@ class WaveCollapseRealLandscapeScene extends Phaser.Scene {
 
     preload() {
         // Load the tileset image (adjust the path if needed)
-        this.load.image('tileset', '/assets/mapPack_spritesheet.png');
+        this.load.image('tileset', './assets/mapPack_spritesheet.png');
     }
 
     create() {
